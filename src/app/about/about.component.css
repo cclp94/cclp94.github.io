@@ -1,0 +1,11 @@
+:host{
+    width: 100%;
+    height: 100%;
+    background-color: #3e464c;
+    color: white;
+}
+
+#about {
+    grid-column: 2 / 3;
+    padding: 15px;    
+}

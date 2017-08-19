@@ -1,0 +1,14 @@
+#container-grid{
+    display: grid;
+    grid-template-columns: 64px auto;
+    grid-template-rows: 100% auto;
+    grid-template-areas: 
+        "nav content"
+        "nav content";
+    width: 100vw;
+    height: 100vh;
+}
+
+router-outlet {
+    display: none;
+}
